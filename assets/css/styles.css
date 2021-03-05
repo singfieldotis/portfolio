@@ -1,0 +1,37 @@
+.f { display: flex; }
+.r { flex-direction: row }
+.c { flex-direction: column }
+
+/* vertical stuff */
+.v { align-items: center }
+.vs { align-items: flex-start }
+.ve { align-items: flex-end }
+
+/* horizontal stuff */
+.h { justify-content: center }
+.hs { justify-content: flex-start }
+.he { justify-content: flex-end }
+
+/* wraps - we're going to need it! */
+.w { flex-wrap: wrap; }
+.wr { flex-wrap: wrap-reverse; }
+
+/* because this is arguably the prettiest spacing*/
+.s { justify-content: space-around; }
+.sb {justify-content: space-between;}
+
+body {
+    width: 80%;
+    padding: 35px;
+}
+
+article img {
+    height: 100px;
+    width: 250px;
+}
+
+.first-img {
+    width: 65%;
+}
+
+nav {display: inline-flex;}
