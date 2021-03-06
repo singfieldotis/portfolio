@@ -25,13 +25,57 @@ body {
     padding: 35px;
 }
 
+header {
+    background: #FCA311;
+    margin: 5px;
+    padding: 35px;
+}
+
+li {display: inline;}
+
+.about {
+    background: #E5E5E5;
+    margin: 5px;
+    padding: 20px;  
+    color: #14213D;
+}
+
+.about h3 {
+    color: #14213D;
+    background: #FCA311;
+}
+
+.work-section {
+    background: #FCA311;
+    text-align: center;
+    margin: 5px;
+    padding: 35px;
+}
+
+.work-section h3 {
+    color: #14213D;
+    background: #E5E5E5;
+}
+
+.work-section h4 {
+    color: #14213D;
+    background: #E5E5E5;
+}
+
 article img {
     height: 100px;
     width: 250px;
 }
 
 .first-img {
-    width: 65%;
+    width: 80%;
+    height: 40%;
 }
 
-nav {display: inline-flex;}
+.contact {
+    text-align: center;
+    background: #E5E5E5;
+    margin: 5px;
+    padding: 20px;  
+    color: #14213D; 
+}
