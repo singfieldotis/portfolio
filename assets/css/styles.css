@@ -33,6 +33,21 @@ header {
 
 li {display: inline;}
 
+.hero {
+    margin: 5px;
+    padding: 35px;
+    background: #14213D;
+}
+
+.hero h2 {
+    color:#E5E5E5;
+}
+
+.hero-img {
+    height: 25%;
+    width: 60%;
+}
+
 .about {
     background: #E5E5E5;
     margin: 5px;
