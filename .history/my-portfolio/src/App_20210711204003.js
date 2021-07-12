@@ -9,12 +9,12 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <main>
-      <Header />
+      <Navbar />
       <About />
       <Projects />
-      <Resume />
+      <Skills />
+      <Testimonials />
       <Contact />
-      <Footer />
     </main>
   );
 }
